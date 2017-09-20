@@ -43,7 +43,7 @@ build-iso:
   packages_dir: result/packages/latest
   pungi_args: --isfinal --nosource --nodebuginfo
   pungi_binary: /usr/bin/pungi
-  result_dir: result
+  result_dir: result2
 build-packages:
   force_rebuild: false
   keep_build_dir: false
